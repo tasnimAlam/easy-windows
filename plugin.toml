@@ -1,0 +1,24 @@
+# Window switcher for Hyprland with easymotion-style hints.
+#
+# Open windows sit in a row of boxes, each tagged with a hint drawn from the
+# home row (a s d f j k l ;). Press the hint and that window is focused and
+# the switcher closes.
+#
+# The switcher is easy_windows.py, a standalone GTK4 layer-shell surface: a
+# Noctalia panel always paints an opaque card behind its content. This plugin
+# only adds a bar button that launches it.
+
+id          = "tasnimAlam/easy-windows"
+name        = "Easy Windows"
+version     = "4.0.0"
+plugin_api  = 30
+author      = "tasnimAlam"
+license     = "MIT"
+icon        = "chart-donut"
+description = "Window switcher for Hyprland with easymotion-style home-row hints."
+tags        = ["hyprland", "windows", "switcher", "keyboard"]
+dependencies = ["hyprland"]
+
+[[widget]]
+id    = "button"
+entry = "widget.luau"
