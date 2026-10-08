@@ -10,7 +10,7 @@
 
 id          = "tasnimAlam/easy-windows"
 name        = "Easy Windows"
-version     = "4.0.0"
+version     = "1.0.0"
 plugin_api  = 30
 author      = "tasnimAlam"
 license     = "MIT"
